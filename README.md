@@ -1,4 +1,5 @@
 #immuno-Similarity Measurement by Aligning Receptors of T cells: iSMART
+
 iSMART performs a specially parameterized pairwise local alignment on T cell receptor CDR3 sequences to group them into antigen-specific clusters. iSMART is developed by Bo Li (bo.li@utsouthwestern.edu), with all rights reserved. iSMART is under GPL3.0 license.
 
 iSMART is written in Python2, and is portable without installations.
