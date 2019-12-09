@@ -6,13 +6,12 @@ iSMART is written in Python2, and is portable without installations.
 
 To use iSMART, please put all the downloaded files into the same directory with the source code, and use the command line to run:
 
-'''
 python iSMARTvx.py -f TCR_file ## Single file with variable gene
 
 python iSMARTvx.py -f TCR_file -v ## Single file without variable gene
 
 python iSMARTvx.py -d TCR_directory ## All files in a directory with variable gene. In this mode, after iSMART analyzes individual files, it performs cross comparisons between the CDR3 clusters identified from different individuals, and create a master table of shared CDR3s.
-'''
+
 Input file format:
 
 CDR3 amino acid sequence (Starting from C, ending with the first F/L in motif [FL]G.G)
